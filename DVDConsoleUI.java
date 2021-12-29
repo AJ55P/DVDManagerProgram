@@ -99,13 +99,6 @@ public class DVDConsoleUI implements DVDUserInterface {
 		
 		// Remove the matching DVD if found
 		dvdlist.removeDVD(title);
-		
-		// Display current collection to the console for debugging
-		/*
-		System.out.println("Removing: " + title);
-		System.out.println(dvdlist);
-		*/
-			
 	}
 
 
